@@ -1,0 +1,44 @@
+/*.carousel-organism {
+  
+}*/
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .image-container {
+  display: flex;
+}
+
+.carousel-image {
+  flex: 0 0 100%;
+  transition: transform 0.5s;
+}
+
+.carousel-image.active {
+  transform: translateX(0);
+  position: absolute;
+}
+
+.carousel-image:not(.active) {
+  transform: translateX(100%);
+}
+
+.carousel > .carousel-btn-right {
+  position: absolute;
+  top: 50%;
+  left: calc(100% - 66px);
+}
+
+.carousel > .carousel-btn-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+.carousel > .ui.basic.button,
+.carousel > .ui.basic.buttons
+.carousel > .button {
+  background: rgba(255, 255, 255, 0.5)!important;
+}

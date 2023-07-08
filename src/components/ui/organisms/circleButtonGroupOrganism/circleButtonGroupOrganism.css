@@ -1,0 +1,8 @@
+.circle-item-group-organism {
+  height: 150px;
+  width: 100%;
+  background-color: #e1d4bd;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}

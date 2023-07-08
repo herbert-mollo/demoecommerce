@@ -1,0 +1,17 @@
+.header-organism {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ho-p1, .ho-p3 {
+  flex: 20;
+  width: 100%;
+}
+
+.ho-p2 {
+  flex: 60;
+  overflow-y: auto;
+}

@@ -1,0 +1,13 @@
+.search-panel-molecule {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  align-items: center;
+  display: flex;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.search-panel-molecule > .input {
+  width: 80%;
+}

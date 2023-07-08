@@ -1,0 +1,9 @@
+.nav-bar-molecule {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar-molecule > .menu {
+  height: 100%;
+  width: 100%;
+}
